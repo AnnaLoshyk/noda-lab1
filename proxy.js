@@ -33,5 +33,5 @@ const Server = http.createServer((incomingRequest, outgoingResponse) => {
 const SERVER_PORT = 8080;
 
 Server.listen(SERVER_PORT, () => {
-  console.log(`server on port ${SERVER_PORT}`);
+  console.log(`server on port: ${SERVER_PORT}`);
 });
