@@ -10,7 +10,8 @@
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check",
     "format:fix": "npx prettier . --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "start": "node proxy.js"
   },
   "repository": {
     "type": "git",
