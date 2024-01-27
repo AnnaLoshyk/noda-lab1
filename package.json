@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check",
-    "format:fix": "npx prettier . --write"
+    "format:fix": "npx prettier . --write",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,11 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sonarjs": "^0.23.0",
+    "husky": "^9.0.6",
     "prettier": "3.2.4"
+  },
+  "dependencies": {
+    "lint-staged": "^15.2.0",
+    "save-dev": "^0.0.1-security"
   }
 }
