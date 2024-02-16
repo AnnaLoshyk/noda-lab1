@@ -2,7 +2,7 @@
   "name": "lab1",
   "version": "1.0.0",
   "description": "lab1",
-  "main": "proxy.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check",
     "format:fix": "npx prettier . --write",
-    "start": "node proxy.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
